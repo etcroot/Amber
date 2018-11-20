@@ -1,0 +1,2 @@
+# Amber
+Multipurpose discord bot
