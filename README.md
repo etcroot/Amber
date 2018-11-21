@@ -1,7 +1,7 @@
 # Amber ~
 
 ### Contributors
-* Sopy
+* Sopy - patron
 
 ### Things you'll need.
 * :coffee:
