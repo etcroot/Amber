@@ -1,4 +1,4 @@
-# Amber :nail_care:
+# Amber ~
 
 ### Things you'll need.
 * :coffee:
