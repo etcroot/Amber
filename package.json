@@ -1,0 +1,59 @@
+{
+  "name": "amber",
+  "version": "1.0.0",
+  "description": "A multipurpose discord bot",
+  "main": "amber.js",
+  "scripts": {
+    "test": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etcroot/Amber.git"
+  },
+  "engines": {
+    "node": "10.8.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "api",
+    "discordapp",
+    "discord.js",
+    "klasa"
+  ],
+  "author": "ETCROOT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etcroot/Amber/issues"
+  },
+  "homepage": "https://github.com/etcroot/Amber/blob/master/README.md",
+  "dependencies": {
+    "breadtags": "^1.0.3",
+    "canvas": "^2.1.0",
+    "canvas-constructor": "^2.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "d3-cloud": "^1.2.5",
+    "dblapi.js": "^2.3.0",
+    "dblposter": "^1.3.1",
+    "discord.js": "discordjs/discord.js",
+    "figlet": "^1.2.0",
+    "he": "^1.2.0",
+    "idiotic-api": "^0.2.11",
+    "klasa": "github:dirigeants/klasa",
+    "klasa-dashboard-hooks": "github:dirigeants/klasa-dashboard-hooks",
+    "klasa-member-gateway": "github:dirigeants/klasa-member-gateway",
+    "ladybug-fetch": "^0.1.0",
+    "lyric-get": "^1.0.3",
+    "mathjs": "^5.2.3",
+    "mongodb": "^3.1.1",
+    "snekfetch": "^4.0.4",
+    "superagent": "^3.8.3",
+    "twit": "^2.2.11",
+    "util": "^0.11.1",
+    "ytdl-core": "^0.28.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  }
+}
