@@ -11,4 +11,6 @@ All you have to do is write `npm i` and it will automatically install requiremen
 
 
 
+
+
 [![Discord Bots](https://discordbots.org/api/widget/513108102711738377.svg)](https://discordbots.org/bot/513108102711738377)
