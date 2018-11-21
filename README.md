@@ -1,6 +1,6 @@
 <img style="border-radius:5px;" align="right" width="200" height="200" src="https://i.imgur.com/ieGIdAP.jpg">
 
-# Amber
+# Amber :sparkles:
 
 ### Things you'll need.
 * A brain.
@@ -12,6 +12,7 @@ All you have to do is write `npm i` and it will automatically install requiremen
 ### Task List
 - [ ] Add music system
 - [ ] Add level system
+- [ ] Fix typo's
 - [x] Add starboard system
 - [x] Add welcome & leave messages
 - [x] Add server prefixes
