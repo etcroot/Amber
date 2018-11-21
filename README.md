@@ -6,7 +6,9 @@
 * :heart:
 
 All you have to do is write `npm i` and it will automatically install requirements for you.
+
 You can find commands [here](https://etcroot.pw/amber/)
+
 Join Amber's [Discord Server](https://discord.gg/2UcyFDD) if you have questions.
 
 ### Task List
