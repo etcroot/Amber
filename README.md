@@ -17,6 +17,9 @@ All you have to do is write `npm i` and it will automatically install requiremen
 - [x] Add welcome & leave messages
 - [x] Add server prefixes
 
+In the words of Amber:
+
+> I'm not cute.
 
 
 [![Discord Bots](https://discordbots.org/api/widget/513108102711738377.svg)](https://discordbots.org/bot/513108102711738377)
