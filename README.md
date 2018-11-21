@@ -17,7 +17,7 @@ All you have to do is write `npm i` and it will automatically install requiremen
 - [x] Add welcome & leave messages
 - [x] Add server prefixes
 
-In the words of Amber:
+Words of Amber:
 
 > I'm not cute.
 
