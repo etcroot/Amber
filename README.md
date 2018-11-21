@@ -1,4 +1,4 @@
-# :purple_heart: Amber
+# Amber :nail_care:
 
 ### Things you'll need.
 * :coffee:
