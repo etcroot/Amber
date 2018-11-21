@@ -1,4 +1,4 @@
-# Amber
+# :purple_heart: Amber
 
 ### Things you'll need.
 * :coffee:
