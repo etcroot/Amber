@@ -1,4 +1,4 @@
-<img style="border-radius:5px;" align="left" width="150" height="150" src="https://i.imgur.com/ieGIdAP.jpg">
+<img style="border-radius:5px;" align="center" width="150" height="150" src="https://i.imgur.com/ieGIdAP.jpg">
 
 
 
