@@ -1,5 +1,8 @@
 # Amber ~
 
+### Contributors
+* Sopy
+
 ### Things you'll need.
 * :coffee:
 * :pray:
@@ -47,3 +50,5 @@ module.exports = {
 
 ### Changelogs
 - Uploaded initial commit.
+
+
