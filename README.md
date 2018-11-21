@@ -4,5 +4,7 @@
 
 ### Things you'll need.
 * A brain.
+* Coffee.
+* A bodypillow.
 
 All you have to do is write `npm i` and it will automatically install requirements for you.
