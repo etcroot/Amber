@@ -42,7 +42,9 @@ class MessageReactionAdd extends RawEvent {
     if(!fetch) return;
     const stars = fetch.find(m => m.embeds.length && m.embeds[0].footer && m.embeds[0].footer.text && m.embeds[0].footer.text.startsWith("⭐") && m.embeds[0].footer.text.endsWith(msg.id));
     if(stars) {
+      // Regex to check how many stars the embed has.
       const star = /^⭐\s([0-9]{1,3})\s\|\s([0-9]{17,20})/.exec(stars.embeds[0].footer.text);
+      // A variable that allows us to use the color of the pre-existing embed.
       const foundStar = stars.embeds[0];
       const embed = new MessageEmbed()
         .setColor(foundStar.color)

@@ -13,7 +13,7 @@ class Bug extends Command {
   }
   
   async run(msg, [report]) {
-    const channel = this.client.channels.get("BUG CHANNEL ID");
+    const channel = this.client.channels.get("513336881329471503");
     const embed = new MessageEmbed()
       .setTitle("Bug Report")
       .setDescription(report)

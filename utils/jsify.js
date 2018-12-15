@@ -20,7 +20,9 @@ function array(num, end) {
   
   function finalize(arr) {
     if(!arr.length) return [];
+    // .prop on empty context makes no sense
     if(arr[0].startsWith(".")) arr[0] = arr[0].slice(1);
+    // Terminate the expression
     arr.push(";");
     return arr;
   }

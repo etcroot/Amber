@@ -8,6 +8,7 @@ class Image extends Command {
     super(...args, {
       description: "Search an image in google images!",
       cooldown: 5,
+      nsfw: true,
       usage: "<query:string>",
       aliases: ["searchimage", "googleimages", "googleimg"]
     });

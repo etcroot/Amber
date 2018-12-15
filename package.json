@@ -1,15 +1,15 @@
 {
-  "name": "amber",
+  "name": "ladybug-bot",
   "version": "1.0.0",
-  "description": "A multipurpose discord bot",
-  "main": "amber.js",
+  "description": "A simple discord bot",
+  "main": "index.js",
   "scripts": {
     "test": "eslint .",
     "fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/etcroot/Amber.git"
+    "url": "git+https://github.com/freetnt5852/LadyBug-Bot.git"
   },
   "engines": {
     "node": "10.8.0"
@@ -22,12 +22,12 @@
     "discord.js",
     "klasa"
   ],
-  "author": "ETCROOT",
+  "author": "Free TNT",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/etcroot/Amber/issues"
+    "url": "https://github.com/freetnt5852/LadyBug-Bot/issues"
   },
-  "homepage": "https://github.com/etcroot/Amber/blob/master/README.md",
+  "homepage": "https://github.com/freetnt5852/LadyBug-Bot#readme",
   "dependencies": {
     "breadtags": "^1.0.3",
     "canvas": "^2.1.0",

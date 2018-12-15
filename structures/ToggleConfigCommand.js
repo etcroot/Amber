@@ -1,6 +1,12 @@
 const { Command } = require("klasa");
 const { MessageEmbed } = require("discord.js");
 
+// An extended command making it easier to do enable/disable config commands
+// lb.<config command> [enable|disable]
+// => Disabled <x> setting
+// etc
+// Made this due to me keep repeating myself in this kind of commmands
+// this should make it less repeating and keep them consistent.
 class ToggleConfigCommand extends Command {
   constructor(client, store, file, directory, { key, friendlyName, ...options } = {}) {
     options.usage = "(action:resolver)";

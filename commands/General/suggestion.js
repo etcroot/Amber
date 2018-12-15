@@ -13,8 +13,8 @@ class Suggestion extends Command {
   }
   
   async run(msg, [suggestion]) {
-    const guild = this.client.guilds.get("MAIN GUILD ID");
-    const channel = guild.channels.get("SUGGESTION CHANNEL ID");
+    const guild = this.client.guilds.get("513333949091807266");
+    const channel = guild.channels.get("513336865491910657");
     const embed = new MessageEmbed()
       .setTitle("New Suggestion")
       .setDescription(suggestion)

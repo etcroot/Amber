@@ -11,6 +11,7 @@ class IsUpvoted extends LadybugFunction {
   }
 
   run(userId) {
+    // Allow passing a User or Message
     if(userId.id) userId = userId.id;
     if(userId.author) userId = userId.author.id;
     return ladybug(`https://discordbots.org/api/bots/${this.client.user.id}/check`)

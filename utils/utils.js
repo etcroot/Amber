@@ -5,7 +5,7 @@ class Util {
     throw new Error("Utils is a static class and may not be constructed.");
   }
 
-  
+  // some_text => Some Text
   static capitalize(str) {
     return str.split("_").map(toTitleCase).join(" ");
   }
@@ -24,6 +24,13 @@ class Util {
     return false;
   }
   
+  // https://j11y.io/snippets/wordwrap-for-javascript/
+  /* static wordwrap(str, width = 75, brk = "\n", cut = false) {
+    if (!str) { return str; }
+    if(str.length <= width) return str;
+    const regex = ".{1," + width + "}(\\s|$)" + (cut ? "|.{" + width + "}|.+$" : "|\\S+?(\\s|$)");
+    return str.match(RegExp(regex, "g")).join(brk);
+  }*/
   
   static wordwrap(str, limit, brk = "\n") {
     if(str.length <= limit) return str;
@@ -47,7 +54,10 @@ class Util {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min;
   }
-
+  
+  // Taken from discord.js's Message#cleanContent
+  // Since not every input we wanna clean is a message object
+  // this makes it easier to clean any piece of string.
   static clean(msg, content) {
     return content
       .replace(/@(everyone|here)/g, "@\u200b$1")
@@ -87,17 +97,21 @@ class Util {
   static async promptArgument(msg, args, propOrFn = "name") {
     let counter = 1;
     const m = await msg.prompt(`Found multiple matches:${codeBlock("", args.map((x) => `${counter++}: ${typeof propOrFn === "function" ? propOrFn(x) : x[propOrFn]}`).join("\n"))}\nType the number to choose an option or **CANCEL** to stop.`);
-    
+    // Throw here because we wanna stop the execution
+    // as if this returned a result it ends up being the result of the argument
+    // we wanna throw to point out that it failed to resolve the arg.
     if(m.content.toLowerCase() === "cancel") throw "Cancelled.";
     const num = parseInt(m.content);
     if(isNaN(num)) throw "Invalid input, Not a Number, cancelled";
-    
+    // Since arrays are 0 indexed but we wanna be user friendly here.
     const res = args[num - 1];
     if(!res) throw "Invalid number range.";
     return res;
   }
 
-  
+  // The usage string types are kind of not really user friendly
+  // this turns them to just the name
+  // <name:string> [reason:string] => <name> [reason]
   static formatUsage(usageString) {
     return usageString.replace(/(<|\[)(\w+):.+?(>|\])/gi, "$1$2$3");
   }
@@ -112,7 +126,7 @@ class Util {
     return null;
   }
 
-  
+  // Something based on python's range()
   static* range(start, stop, incr = 1) {
     if(!stop) {
       stop = start;

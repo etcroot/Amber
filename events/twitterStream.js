@@ -4,18 +4,18 @@ const he = require('he');
 const Twit = require('twit');
 
 // The channel ID you want the tweets to be sent to
-const tweetChannel = 'CHANNEL ID FOR TWEETS';
+const tweetChannel = '514276508294971413';
 
 // The ID's of the accounts you want to stream tweets from - http://gettwitterid.com/
-const twitterAccounts = ['ID OF YOUR TWITTER ACCOUNT'];
+const twitterAccounts = ['1056331072949116928'];
 
 // https://developer.twitter.com/en/apply/user
 /* eslint-disable camelcase */
 const twitter = new Twit({
-	consumer_key: 'CONSUMER KEY',
-	consumer_secret: 'CONSUMER SECRET',
-	access_token: 'ACCESS TOKEN',
-	access_token_secret: 'ACCESS TOKEN SECRET'
+	consumer_key: 'srQUfIAKvTiiz9dC3wRy4UuX5',
+	consumer_secret: 'UI6mZwIsXST8AWuWuLE91o9J8DoCW5kQ3l70lPKpE7r3lr0tXq',
+	access_token: '1056331072949116928-bX1xjScrZhfo95Grfj1PEVE1rPGwvp',
+	access_token_secret: '3MrIgen9ni2rXrdjP7SZeXDRI4nODWlsX6w84A9IPusEB'
 });
 /* eslint-enable camelcase */
 
