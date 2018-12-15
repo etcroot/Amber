@@ -37,7 +37,7 @@ class AmberClient extends Client {
     this.registerStore(this.rawEvents);
     this.registerStore(this.functions);
     this.upvoters = new Set();
-    const poster = new dbl("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUxMzEwODEwMjcxMTczODM3NyIsImJvdCI6dHJ1ZSwiaWF0IjoxNTQyNjYxODIzfQ.nuPb1jgnO410QKpmNRg1nB3Z0Oe1c3GSZbJXXFlELbM", this);
+    const poster = new dbl("Pfft no", this);
     poster.bind();
   }
 
