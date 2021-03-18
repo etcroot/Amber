@@ -51,7 +51,7 @@
     "superagent": "^3.8.3",
     "twit": "^2.2.11",
     "util": "^0.11.1",
-    "ytdl-core": "^0.28.0"
+    "ytdl-core": "^4.5.0"
   },
   "devDependencies": {
     "eslint": "^4.18.1"
