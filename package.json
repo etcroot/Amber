@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/freetnt5852/LadyBug-Bot#readme",
   "dependencies": {
-    "breadtags": "^1.0.3",
+    "breadtags": "^2.1.0",
     "canvas": "^2.1.0",
     "canvas-constructor": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
