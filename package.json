@@ -45,7 +45,7 @@
     "klasa-member-gateway": "github:dirigeants/klasa-member-gateway",
     "ladybug-fetch": "^0.1.0",
     "lyric-get": "^1.0.3",
-    "mathjs": "^5.2.3",
+    "mathjs": "^9.3.0",
     "mongodb": "^3.1.1",
     "snekfetch": "^4.0.4",
     "superagent": "^3.8.3",
